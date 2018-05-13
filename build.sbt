@@ -1,4 +1,4 @@
-organization := "com.github.catalystcode"
+organization := "com.github.imkrmgn"
 name := "SpeechToText-WebSockets-Java"
 description := "A Java implementation of the Bing Speech to Text API websocket protocol"
 

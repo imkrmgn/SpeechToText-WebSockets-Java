@@ -9,3 +9,9 @@ jdk:
 
 script:
   - sbt test
+
+deploy:
+  provider: script
+  script:
+    - sbt publishSigned
+  skip_cleanup: true
