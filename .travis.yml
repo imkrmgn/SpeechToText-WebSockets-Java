@@ -15,3 +15,5 @@ deploy:
   script:
     - sbt publishSigned
   skip_cleanup: true
+  on:
+    all_branches: true
